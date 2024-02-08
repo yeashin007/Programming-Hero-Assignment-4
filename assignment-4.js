@@ -1,4 +1,3 @@
-/* Problem: 01 */
 function calculateMoney(ticketSale) {
   if (ticketSale < 0) {
     return "Invalid Number";
@@ -11,8 +10,6 @@ function calculateMoney(ticketSale) {
 
   return remainOnHand;
 }
-
-/* Problem: 02 */
 
 function checkName(name) {
   if (typeof name !== "string") {
@@ -35,7 +32,6 @@ function checkName(name) {
   }
 }
 
-/* Problem: 03 */
 function deleteInvalids(array) {
   if (!Array.isArray(array)) {
     return "Invalid Array";
@@ -52,8 +48,6 @@ function deleteInvalids(array) {
   return numberArray;
 }
 
-/* Problem: 04 */
-
 function password(obj) {
   const birthYear = obj.birthYear;
   const lengthOfBirthYear = String(birthYear).length;
@@ -67,8 +61,6 @@ function password(obj) {
 
   return `${firstLetterCapital}#${obj.name}@${obj.birthYear}`;
 }
-
-/* Problem: 05 */
 
 function monthlySavings(arr, livingCost) {
   if (!Array.isArray(arr) || typeof livingCost !== "number") {
